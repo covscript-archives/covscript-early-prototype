@@ -1,0 +1,15 @@
+import math.csh;
+static const int result=0;
+function main(array<string> args)
+{
+	print("Hello",endline);
+	if(args[0]=="-hello") {
+		print(args[1],endline);
+	} else {
+		print("Unknow Parameter.",endline);
+	}
+	for(string str:args) {
+		print(str,endline);
+	}
+	return 0;
+}
